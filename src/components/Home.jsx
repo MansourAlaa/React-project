@@ -1,4 +1,5 @@
 import React from 'react';
+import image from '../assets/home.svg'; 
 
 function Home() {
   return <>
@@ -6,7 +7,7 @@ function Home() {
     <div className='bg-teal-400 w-[100%] h-[100vh] flex flex-col items-center justify-center text-white'>
 
 
-        <img src="../assets/images/home.svg" className='w-2xs' alt="" />
+        <img src={image} className='w-2xs' alt="" />
 
         <div className='w-[80%] text-center flex flex-col items-center mt-5 mb-7'>
                 <h1 style={{fontSize : '40px' , letterSpacing : '4px' }} className='my-5 uppercase font-extrabold'>start Framework</h1>

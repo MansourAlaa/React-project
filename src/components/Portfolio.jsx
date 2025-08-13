@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
+import image1 from '../assets/image-1.png';
+import image2 from '../assets/image-2.png';
+import image3 from '../assets/image-3.png';
 
 function Portfolio() {
   const images = [
-    '../assets/images/image-1.png',
-    '../assets/images/image-2.png',
-    '../assets/images/image-3.png',
-    '../assets/images/image-1.png',
-    '../assets/images/image-2.png',
-    '../assets/images/image-3.png',
+    image1,
+    image2,
+    image3,
+    image3,
+    image2,
+    image1,
   ];
 
   const [selectedImage, setSelectedImage] = useState(null);
